@@ -1,0 +1,191 @@
+* {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    box-sizing: border-box;
+}
+
+.header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 100px;
+    background: #1F2937;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    font-size: 18px;
+    background: #1F2937;
+    padding: 8px;
+    text-decoration: none;
+    color: #E5E7EB;
+  }
+
+  .wet-leaf {
+    max-width: 500px;
+    height: auto;
+  }
+
+.content-one {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.container-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 100px;
+    gap: 36px;
+    background-color: #1F2937;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.sign-up-one {
+    background-color: #3882F6;
+    width: 100px;
+    padding: 6px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+.pics {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 52px;
+    padding: 30px 100px;
+  }
+
+.info {
+    display: flex;
+    width: 22%;
+    height: auto;
+    gap: 16px;
+    padding: 8px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+  }
+
+.title {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 10px;
+    margin: 20px;
+  }
+
+ .testimonial, .name {
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 2px 100px;
+    background-color: #E5E7EB;
+    padding-top: 30px;
+ } 
+
+ .name {
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    padding-left: 300px;
+ }
+
+ .container-three {
+    background-color: #E5E7EB;
+ }
+
+ .container-four {
+    padding: 72px;
+ }
+
+ .bluebox {
+    display: flex;
+    padding: 18px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+ }
+
+ .sign-up {
+    color: white;
+    background-color: #3882F6;
+    width: 100px;
+    padding: 6px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid white;
+ }
+
+ .contact-one {
+    font-size: 22px;
+    font-weight: 800;
+ }
+
+ .contact-two {
+    font-size: 18px;
+ }
+
+ .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 12px;
+    padding: 14px;
+ }
+
+
+  /* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container-one {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .content-one {
+        max-width: 100%; /* Let the content take full width on smaller screens */
+        margin-right: 0;
+    }
+
+    .pics {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center;
+    }
+
+    .info {
+        width: 100%; /* Make the info divs take full width on smaller screens */
+        margin-bottom: 20px;
+    }
+}
